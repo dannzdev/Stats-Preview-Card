@@ -1,10 +1,26 @@
+:root {
+    /* Colors */
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --darl-desaturated-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --paragraph-white: hsla(0, 0%, 100%, 0.75);
+    --stats-white: hsla(0, 0%, 100%, 0.6);
+}
+
 html {
     font-size: 62.5%;
 }
 
+body {
+    font-size: 1.5rem;
+    /* font-family: 'Lexend', sans-serif; */
+    font-family: 'Inter', sans-serif;
+}
+
 header {
     width: 100%;
-    height: 160px;
+    height: 180px;
     min-width: 300px;
     display: flex;
     justify-content: center;
@@ -12,7 +28,7 @@ header {
 
 .img__container {
     width: 90%;
-    height: 160px;
+    height: 180px;
     border: 1px solid red;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -21,7 +37,7 @@ header {
 
 .img__container img {
     width: 100%;
-    height: 160px;
+    height: 180px;
 }
 
 .main__container {
